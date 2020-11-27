@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:  55%;
+    border: 3px solid;
+    border-radius: 50px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+    /* background-color: black; */
+}
+.nav-list{
+    width: 60%;
+    display: flex;
+        align-items: center;
+
+}
+.nav-list li{
+            list-style: none;
+            padding: 26px 30px;
+}
+.nav-list li a{
+            text-decoration: none;
+            color:white;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color:gray;
+}
+.rightnav{
+    padding: 5px;
+    width: 50%  ;
+text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0,0 ,0,0.7 ) url(image/pexels-jatin-anand-125779.jpg);
+    background-size: cover;
+    /* background-blend-mode: darken; */
+}
+.firstsection{
+    height: 85vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 44%;
+    margin: 0px;
+    height: 80%;
+
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+.secondhalf img{
+    width: 70%;
+    border: white 2px solid;
+    border-radius: 105px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+font-size: 26px;
+}
+.text-small{
+font-size: 12px;
+}
+
+.container {
+    width: 90%;
+    overflow: hidden;
+    background: #c2c2c2;
+    margin: 31px 50px;
+    padding: 20px;
+}
+.container ul{
+    padding: 0px;
+    margin: 0px;
+}
+.container ul li{
+    list-style: none;
+    float: left;
+    width: 259px;
+    height: 300px;
+    /* background-image: url(menwatches/w2000_q80.jpg); */
+    margin: 10px 90px 0px 55px;
+    box-sizing: border-box;
+    border: white;
+}
+.container ul li img{
+    height: 300px;
+    width: 259px;
+}
+.card .info .btn{
+    text-decoration: none;
+    padding: 0.5rem 5rem;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+/* .centerbtn{
+    position: inherit;
+    left: 50%;
+    top: 50%;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 25px;
+
+} */
+/* .container ul li .title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: white;
+    text-align: center;
+} */
+/* .container ul li button {
+    overflow: 2px;
+} */
