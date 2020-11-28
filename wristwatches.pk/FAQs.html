@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <style>
+        body {
+            background-color: aqua
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        $(document).ready(function () {
+            $('#q11').click(function () {
+                $('#para1').slideToggle(2000);
+            });
+        });
+        $(document).ready(function () {
+            $('#q22').click(function () {
+                $('#para2').slideToggle(2000);
+            });
+        });
+        $(document).ready(function () {
+            $('#q33').click(function () {
+                $('#para3').slideToggle(2000);
+            });
+        });
+    </script>
+    <p id="q1">Which is the first highest peak in the world? <button id="q11">show</button></p>
+    <p id="para1" style="display: none;"> Mount Everest
+        1. Mount Everest, Himalayas, Nepal/Tibet Autonomous Region,
+        China – 8848m. First climbed by Sir Edmund Hillary and Tenzing Norgay in 1953,
+        Mount Everest is,
+        of course, the highest mountain in the world</p>
+
+
+
+    <p id="q2">2)Which is the world's highest peak?<button id="q22">show</button></p>
+
+    <p id="para2" style="display: none;"> Mount Everest
+        1.Mount Everest, located in Nepal and Tibet, is usually said to be the highest mountain on Earth.
+        Reaching 29,029 feet at its summit,
+        Everest is indeed the highest point above global mean sea level—the average level for the ocean surface from
+        which elevations are measured</p>
+    <p id="q3">Is Everest still growing?<button id="q33">show</button></p>
+    <p id="para3" style="display: none;">
+        The mountain was formed by the upward force generated when the Indian and Eurasian tectonic plates collided,
+        pushing up the rocks that formed the highest mountain on Earth. That force is still at work today,
+        pushing Everest's summit about a quarter of an inch higher each year.</p>
+
+</body>
+
+</html>
